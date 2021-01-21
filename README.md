@@ -1,2 +1,2 @@
-# React_Elzaan_App1.21
+# React_EmojiDictionary_App_Basic
 Created with CodeSandbox

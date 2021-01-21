@@ -1,0 +1,299 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: rgb(230, 230, 230);
+  width: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+  text-align: center;
+  background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+}
+
+.heading {
+  display: block;
+  display: inline-block;
+  width: 40px;
+  height: 100px;
+  margin: 10px auto;
+  padding-top: 20px;
+  color: rgb(48, 46, 46);
+  font-size: 5rem;
+  font-family: Inconsolata;
+  font-weight: bold;
+  transform: rotate(45deg);
+  font-family: Amatic SC;
+}
+
+.header button {
+  position: relative;
+  float: right;
+  margin-right: 10px;
+  color: #292727;
+  background-color: inherit;
+  border: none;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  outline: none;
+}
+
+.header h2 {
+  font-size: 1.5rem;
+  margin: 2px auto;
+  color: rgb(44, 43, 43);
+  font-family: Josefin Slab;
+  font-weight: bold;
+}
+
+.cloud1 {
+  position: relative;
+  width: 30%;
+  margin: 2px 5px;
+}
+.cloud2 {
+  position: relative;
+  width: 18%;
+  margin: 2px 5px;
+  top: 35%;
+}
+.cloud3 {
+  position: relative;
+  width: 18%;
+  margin: 2px 5px;
+  top: 35%;
+}
+.cloud4 {
+  position: absolute;
+  width: 30%;
+  margin: 2px 5px;
+  left: 65%;
+}
+
+.square1 {
+  position: relative;
+  width: 10%;
+  top: 25%;
+}
+.square2 {
+  position: relative;
+  width: 15%;
+  top: 5%;
+}
+.square3 {
+  position: relative;
+  width: 15%;
+  top: 4%;
+  right: 50%;
+}
+.square4 {
+  position: relative;
+  width: 10%;
+  top: 25%;
+  right: 50%;
+}
+
+.code2 {
+  height: 5%;
+  position: absolute;
+  bottom: 15%;
+  left: 20%;
+}
+
+.code4 {
+  height: 5%;
+  position: absolute;
+  bottom: 15%;
+}
+.webdev1 {
+  height: 15%;
+  position: absolute;
+  left: 65%;
+  top: 68%;
+}
+.webdev2 {
+  height: 15%;
+  position: absolute;
+  right: 15%;
+  top: 45%;
+}
+
+.avatar1 {
+  width: 250px;
+  height: 250px;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 22%;
+  bottom: 0px;
+}
+
+.shape1 {
+  width: 8%;
+  position: absolute;
+  top: 41%;
+  left: 13%;
+}
+.shape2 {
+  position: absolute;
+  width: 8%;
+  right: 78%;
+  top: 75%;
+}
+
+img {
+  opacity: 0.8;
+}
+
+/* .code2 {
+  animation: rotation 8s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+} */
+/* @media (max-width: 500px) and (max-height: 701px) {
+  img .cloud1,
+  .cloud1,
+  .cloud2,
+  .cloud3,
+  .cloud4,
+  .code1,
+  .code2,
+  .code3,
+  .code4,
+  .code5,
+  .code6,
+  .shape1,
+  .shape2,
+  .shape3,
+  .square1,
+  .square2,
+  .square3,
+  .square4,
+  .webdev1,
+  .webdev2,
+  .webdev3 {
+    width: 40px;
+    height: 40px;
+    opacity: 0.8;
+  }
+}
+@media (max-width: 400px) and (max-height: 701px) {
+  img .cloud1,
+  .cloud1,
+  .cloud2,
+  .cloud3,
+  .cloud4,
+  .code1,
+  .code2,
+  .code3,
+  .code4,
+  .code5,
+  .code6,
+  .shape1,
+  .shape2,
+  .shape3,
+  .square1,
+  .square2,
+  .square3,
+  .square4,
+  .webdev1,
+  .webdev2,
+  .webdev3 {
+    width: 30px;
+    height: 30px;
+    opacity: 0.8;
+  }
+}
+@media (max-width: 200px) and (max-height: 301px) {
+  img .cloud1,
+  .cloud1,
+  .cloud2,
+  .cloud3,
+  .cloud4,
+  .code1,
+  .code2,
+  .code3,
+  .code4,
+  .code5,
+  .code6,
+  .shape1,
+  .shape2,
+  .shape3,
+  .square1,
+  .square2,
+  .square3,
+  .square4,
+  .webdev1,
+  .webdev2,
+  .webdev3 {
+    width: 10px;
+    height: 10px;
+    opacity: 0.8;
+  }
+} */
+
+/* @media (max-width: 900px) and (max-height: 701px) {
+  img .avatar1,
+  .avatar1 {
+    width: 180px;
+    height: 180px;
+    opacity: 0.8;
+  
+  } */
+/* 
+@media (max-width: 800px) and (max-height: 701px) {
+  img .avatar1,
+  .avatar1 {
+    width: 180px;
+    height: 180px;
+    opacity: 0.8;
+  }
+@media (max-width: 600px) and (max-height: 701px) {
+  img .avatar1,
+  .avatar1 {
+    width: 180px;
+    height: 180px;
+    opacity: 0.8;
+  }
+}
+@media (max-width: 500px) and (max-height: 701px) {
+  img .avatar1,
+  .avatar1 {
+    width: 140px;
+    height: 140px;
+    opacity: 0.8;
+  }
+}
+@media (max-width: 400px) and (max-height: 701px) {
+  img .avatar1,
+  .avatar1 {
+    width: 120px;
+    height: 120px;
+    opacity: 0.8;
+  }
+}
+@media (max-width: 300px) and (max-height: 701px) {
+  img .avatar1,
+  .avatar1 {
+    width: 80px;
+    height: 80px;
+    opacity: 0.8;
+  }
+} */
+
+.p {
+  background-color: aqua;
+  display: inline-block;
+  width: 50%;
+}
